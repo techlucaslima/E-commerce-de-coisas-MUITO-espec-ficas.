@@ -1,8 +1,12 @@
-import Home from './pages/Home.jsx';
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <Home />
+    <div>
+      <Header />
+      <Home  />
+    </div>
   )
 }
 
