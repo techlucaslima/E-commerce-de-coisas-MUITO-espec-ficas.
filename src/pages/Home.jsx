@@ -1,4 +1,5 @@
 import Product from "../components/Product";
+import products from "../utils/products";
 
 function Home() {
   return (
@@ -28,8 +29,14 @@ function Home() {
         </div>
       </section>
 
-      <section>
-        <Product />
+      <section className="p-3 bg-gray-200">
+        <div className="container mx-auto flex gap-2 flex-wrap justify-center">
+          {
+            products.map((product, index) => (
+              <Product name={product.name} price={product.price} image={product.image} key={index}/>
+            ))
+          }
+        </div>
       </section>
     </div>
   );

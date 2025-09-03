@@ -23,8 +23,12 @@ const products = [
         name: "Beringela do Fábio Leonardo",
         price: 99999.99,
         image: "https://tse1.mm.bing.net/th/id/OIP.vcSOps3WTR-EJzZ28nVZlwHaFl?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        name: "Ronaldo",
+        price: 69.69,
+        image: "https://media.tenor.com/c-fmfYiYatEAAAAM/ronaldo.gif"
     }
-
 ];
 
 export default products;
