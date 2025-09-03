@@ -21,19 +21,6 @@ function Home() {
           </h3>
         </div>
 
-        {/* Coluna direita */}
-        <div className="flex flex-col w-1/2 gap-2">
-          <div className="flex bg-[url(src/assets/mecanico.webp)] h-1/2 rounded bg-cover bg-center font-serif font-bold items-end">
-            <h3 className="text-xl rounded bg-lightyellow p-4 w-full break-words">
-              Produtos específicos
-            </h3>
-          </div>
-          <div className="flex bg-[url(src/assets/construcao.webp)] h-1/2 rounded bg-cover bg-center font-serif font-bold items-end">
-            <h3 className="text-xl rounded bg-lightyellow p-4 w-full break-words">
-              Tudo o que procura
-            </h3>
-          </div>
-        </div>
       </div>
 
     </main>
