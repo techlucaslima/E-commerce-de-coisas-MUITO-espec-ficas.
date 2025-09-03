@@ -1,36 +1,24 @@
 function Home() {
   return (
-    <main className="flex flex-col p-2 gap-3">
-
-      {/* Layout Mobile */}
-      <div className="flex flex-col gap-2 xl:hidden">
-        <div className="flex bg-[url(src/assets/homem-compras.webp)] h-64 w-full rounded bg-cover bg-center font-serif font-bold items-end">
-          <h2 className="text-sm rounded bg-darkblue p-2 w-full break-words">
-            Compre tudo o que você precisa
-          </h2>
-        </div>
-
-        <div className="flex flex-row gap-2 w-full">
-          <div className="flex bg-[url(src/assets/mecanico.webp)] h-48 flex-1 rounded bg-cover bg-center font-serif font-bold items-end">
-            <h3 className="text-sm rounded bg-lightyellow p-2 w-full break-words">
-              Produtos específicos
-            </h3>
-          </div>
-          <div className="flex bg-[url(src/assets/construcao.webp)] h-48 flex-1 rounded bg-cover bg-center font-serif font-bold items-end">
-            <h3 className="text-sm rounded bg-lightyellow p-2 w-full break-words">
-              Tudo o que procura
-            </h3>
-          </div>
-        </div>
+    <main className="flex flex-col lg:flex-row p-2 gap-3 bg-white h-100">
+      <div className="flex flex-1 bg-[url(src/assets/homem-compras.webp)] rounded bg-cover bg-no-repeat font-bold items-end">
+        <h2 className="text-sm xl:text-xl rounded bg-lightyellow p-1 m-1 xl:m-2 xl:p-4 xl:w-fit">
+          Compre tudo o que você mais precisa diretamente aqui
+        </h2>
       </div>
 
-      {/* Layout Desktop */}
-      <div className="hidden xl:flex gap-2 h-80 w-full">
-        {/* Imagem da esquerda */}
-        <div className="flex bg-[url(src/assets/homem-compras.webp)] w-1/2 rounded bg-cover bg-center font-serif font-bold items-end">
-          <h2 className="text-xl rounded bg-lightyellow p-4 w-full break-words">
-            Compre tudo o que você precisa
-          </h2>
+      <div className="flex flex-1 flex-row xl:flex-col gap-2">
+
+        <div className="flex flex-1 bg-[url(src/assets/mecanico.webp)] bg-cover bg-[center_-30px] rounded p-1 xl:p-2 font-bold items-end">
+          <h3 className="text-sm xl:text-xl rounded bg-lightyellow p-1 m-1 xl:p-2 xl:m-2 xl:w-fit">
+            Das coisas mais específicas
+          </h3>
+        </div>
+
+        <div className="flex flex-1 bg-[url(src/assets/construcao.webp)] bg-cover bg-[center_-30px] rounded p-1 xl:p-2 font-bold items-end">
+          <h3 className="text-sm xl:text-xl rounded bg-lightyellow p-1 m-1 xl:p-2 xl:m-2 xl:w-fit">
+            A exatamente aquilo que procura!
+          </h3>
         </div>
 
         {/* Coluna direita */}
