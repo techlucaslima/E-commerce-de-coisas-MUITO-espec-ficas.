@@ -1,3 +1,5 @@
+import Product from "../components/Product";
+
 function Home() {
   return (
     <div>
@@ -27,7 +29,7 @@ function Home() {
       </section>
 
       <section>
-        
+        <Product />
       </section>
     </div>
   );
